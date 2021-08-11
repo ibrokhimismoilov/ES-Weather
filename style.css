@@ -1,0 +1,185 @@
+.loadingio-outer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadingio-outer.show {
+  display: flex;
+}
+
+@keyframes ldio-hnjvt8dyvw7 {
+  0% {
+    top: 96px;
+    left: 96px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  100% {
+    top: 18px;
+    left: 18px;
+    width: 156px;
+    height: 156px;
+    opacity: 0;
+  }
+}
+
+.ldio-hnjvt8dyvw7 div {
+  position: absolute;
+  border-width: 4px;
+  border-style: solid;
+  opacity: 1;
+  border-radius: 50%;
+  animation: ldio-hnjvt8dyvw7 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.ldio-hnjvt8dyvw7 div:nth-child(1) {
+  border-color: #e90c59;
+  animation-delay: 0s;
+}
+
+.ldio-hnjvt8dyvw7 div:nth-child(2) {
+  border-color: #46dff0;
+  animation-delay: -0.5s;
+}
+
+.loadingio-spinner-ripple-we2pw26t2r8 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: transparent;
+}
+
+.ldio-hnjvt8dyvw7 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0;
+  /* see note above */
+}
+
+.ldio-hnjvt8dyvw7 div {
+  box-sizing: content-box;
+}
+
+/* End of loading styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.author {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  font-size: 5vw;
+  color: #222;
+  text-align: center;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(123, 184, 104), rgb(13, 87, 10));
+  font-family: sans-serif;
+  color: rgb(7, 9, 10);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+p {
+  margin-bottom: 15px;
+}
+
+p {
+  text-transform: lowercase;
+}
+
+p::first-letter {
+  text-transform: uppercase;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 250px;
+  background-color: rgb(152, 228, 165);
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 16px;
+  border: 2px solid rgb(14, 43, 1);
+  padding: 10px;
+}
+
+.card #get-location {
+  margin-top: auto;
+}
+
+.card input {
+  margin: auto 0;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none !important;
+}
+
+.card input::placeholder {
+  color: green;
+}
+
+.card .icon {
+  height: 150px;
+  object-fit: contain;
+}
+
+code {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #f8f8f8;
+  line-height: 2;
+  padding: 15px;
+  font-size: 16px;
+}
+
+code.success {
+  text-align: left;
+  display: block;
+  background: #222;
+  padding: 15px;
+}
+
+code.error {
+  text-align: center;
+  display: block;
+  background: darkred;
+  padding: 15px;
+}
